@@ -21,6 +21,26 @@ redirect_from:
     margin-top: 2rem;
     margin-bottom: 5rem;
   }
+
+  /* Tech Stack 스타일 */
+  .tech-tag {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #374151;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+  
+  .tech-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: #d1d5db;
+  }
 </style>
 
 <div style="max-width: 768px; margin: 0 auto; letter-spacing: -0.02em;">
@@ -43,30 +63,43 @@ redirect_from:
   <section id="tech-stack">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">🛠️ Tech Stack</h3>
 
-    <div style="margin-bottom: 1.5rem;">
-      <h4 style="font-weight: 600; margin-bottom: 0.75rem; color: #4b5563;">Backend</h4>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-        <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+      
+      <div>
+        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 4px; height: 16px; background: #3b82f6; border-radius: 2px;"></span>
+          Backend
+        </h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">Spring Boot</span>
+          <span class="tech-tag">Node.js</span>
+        </div>
       </div>
-    </div>
 
-    <div style="margin-bottom: 1.5rem;">
-      <h4 style="font-weight: 600; margin-bottom: 0.75rem; color: #4b5563;">Frontend</h4>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+      <div>
+        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 4px; height: 16px; background: #fbbf24; border-radius: 2px;"></span>
+          Frontend
+        </h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Bootstrap</span>
+        </div>
       </div>
-    </div>
 
-    <div>
-      <h4 style="font-weight: 600; margin-bottom: 0.75rem; color: #4b5563;">Database</h4>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+      <div>
+        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 4px; height: 16px; background: #10b981; border-radius: 2px;"></span>
+          Database
+        </h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">MongoDB</span>
+        </div>
       </div>
+
     </div>
   </section>
 
