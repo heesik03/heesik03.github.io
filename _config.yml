@@ -8,16 +8,14 @@
 
 # Basic Site Settings
 locale                   : "ko-KR" 
-title                    : "김희식 | Kim Heesik" 
+title                    : "About Heesik" 
 name                     : &name "김희식"
 description              : &description "초보 개발자 Heesik입니다!"
 url                      : "https://heesik03.github.io" 
 baseurl                  : ""
 repository               : "heesik03/heesik03.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
   # Biographic information
   avatar           : "/images/profile.png"
