@@ -20,8 +20,8 @@ repository               : "heesik03/heesik03.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "HeeSik"
+  avatar           : "/images/profile.png"
+  name             : "김희식"
   pronouns         : # example: "she/her"  
   bio              : "항상 성장하는 개발자가 되고 싶습니다."
   location         : "Seoul, South Korea"
