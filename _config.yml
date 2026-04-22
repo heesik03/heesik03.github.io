@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "ko-KR" 
-title                    : "About Heesik" 
+title                    : "HeeSik" 
 name                     : &name "김희식"
 description              : &description "초보 개발자 Heesik입니다!"
 url                      : "https://heesik03.github.io" 
@@ -120,7 +120,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 

@@ -26,7 +26,6 @@ redirect_from:
 <div style="max-width: 768px; margin: 0 auto; letter-spacing: -0.02em;">
 
   <section id="intro">
-    <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">HeeSik</h1>
     <h2 style="font-size: 1.25rem; color: #6b7280; font-weight: 400; margin-top: 0;">Full Stack Web Developer</h2>
     <p style="margin-top: 1rem; line-height: 1.6; color: #374151; font-size: 1.05rem;">
       항상 성장하는 개발자가 되고 싶습니다.
