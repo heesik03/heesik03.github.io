@@ -7,9 +7,25 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  /* 앵커 링크 이동 시 상단 여백 확보 */
+  section[id] {
+    scroll-margin-top: 80px;
+    padding-top: 2rem;
+    margin-bottom: 6rem; /* 섹션 간 간격을 대폭 확대 */
+  }
+  
+  /* 첫 번째 섹션(HeeSik 소개)은 예외 처리 */
+  #intro {
+    padding-top: 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+</style>
+
 <div style="max-width: 768px; margin: 0 auto; letter-spacing: -0.02em;">
 
-  <section style="margin-bottom: 3.5rem; margin-top: 2rem;">
+  <section id="intro">
     <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">HeeSik</h1>
     <h2 style="font-size: 1.25rem; color: #6b7280; font-weight: 400; margin-top: 0;">Full Stack Web Developer</h2>
     <p style="margin-top: 1rem; line-height: 1.6; color: #374151; font-size: 1.05rem;">
@@ -17,7 +33,7 @@ redirect_from:
     </p>
   </section>
 
-  <section id="education" style="margin-bottom: 3rem;">
+  <section id="education">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🎓 Education</h3>
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600; color: #111827;">동양미래대학교 컴퓨터소프트웨어공학과</h4>
@@ -25,7 +41,7 @@ redirect_from:
     </div>
   </section>
 
-  <section id="tech-stack" style="margin-bottom: 3rem;">
+  <section id="tech-stack">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">🛠️ Tech Stack</h3>
 
     <div style="margin-bottom: 1.5rem;">

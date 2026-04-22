@@ -26,8 +26,8 @@ author:
   bio              : "항상 성장하는 개발자가 되고 싶습니다."
   location         : "Seoul, South Korea"
   employer         : "동양미래대학교"
-  uri              : "https://heesik03.github.io"
-  email            : 
+  uri              : 
+  email            : "cka8701@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -54,14 +54,14 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "kim_hesick"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
