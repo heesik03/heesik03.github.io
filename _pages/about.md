@@ -41,13 +41,41 @@ redirect_from:
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     border-color: #d1d5db;
   }
+
+  /* 다크모드 대응 */
+  [data-theme="dark"] .tech-tag {
+    background: #1f2937;
+    border-color: #374151;
+    color: #e5e7eb;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+
+  [data-theme="dark"] .tech-tag:hover {
+    border-color: #4b5563;
+    background: #374151;
+  }
+
+  [data-theme="dark"] section[id] {
+    border-color: #374151 !important;
+  }
+
+  [data-theme="dark"] h3, 
+  [data-theme="dark"] h4 {
+    color: #f3f4f6 !important;
+    border-color: #374151 !important;
+  }
+
+  [data-theme="dark"] p,
+  [data-theme="dark"] span {
+    color: #9ca3af !important;
+  }
 </style>
 
 <div style="max-width: 768px; margin: 0 auto; letter-spacing: -0.02em;">
 
   <section id="intro">
-    <h2 style="font-size: 1.25rem; color: #6b7280; font-weight: 400; margin-top: 0;">Full Stack Web Developer</h2>
-    <p style="margin-top: 1rem; line-height: 1.6; color: #374151; font-size: 1.05rem;">
+    <h2 style="font-size: 1.25rem; font-weight: 400; margin-top: 0; color: #6b7280;" class="intro-subtitle">Full Stack Web Developer</h2>
+    <p style="margin-top: 1rem; line-height: 1.6; font-size: 1.05rem; color: #374151;" class="intro-text">
       항상 성장하는 개발자가 되고 싶습니다.
     </p>
   </section>
@@ -55,8 +83,8 @@ redirect_from:
   <section id="education">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🎓 Education</h3>
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600; color: #111827;">동양미래대학교 컴퓨터소프트웨어공학과</h4>
-      <span style="color: #6b7280; font-size: 0.9rem;">2023.03 ~ 현재</span>
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">동양미래대학교 컴퓨터소프트웨어공학과</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2023.03 ~ 현재</span>
     </div>
   </section>
 
@@ -66,7 +94,7 @@ redirect_from:
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
       
       <div>
-        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+        <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
           <span style="width: 4px; height: 16px; background: #3b82f6; border-radius: 2px;"></span>
           Backend
         </h4>
@@ -78,7 +106,7 @@ redirect_from:
       </div>
 
       <div>
-        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+        <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
           <span style="width: 4px; height: 16px; background: #fbbf24; border-radius: 2px;"></span>
           Frontend
         </h4>
@@ -90,7 +118,7 @@ redirect_from:
       </div>
 
       <div>
-        <h4 style="font-weight: 600; margin-bottom: 1rem; color: #4b5563; display: flex; align-items: center; gap: 8px;">
+        <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
           <span style="width: 4px; height: 16px; background: #10b981; border-radius: 2px;"></span>
           Database
         </h4>
@@ -106,8 +134,8 @@ redirect_from:
   <section id="certifications">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">📜 Certifications</h3>
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600; color: #111827;">SQL 개발자 (SQLD)</h4>
-      <span style="color: #6b7280; font-size: 0.9rem;">2025.06</span>
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2025.06</span>
     </div>
   </section>
 
