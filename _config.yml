@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "ko-KR" 
-title                    : "HeeSik" 
+title                    : "" 
 name                     : &name "김희식"
 description              : &description "초보 개발자 Heesik입니다!"
 url                      : "https://heesik03.github.io" 
