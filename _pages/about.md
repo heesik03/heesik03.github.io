@@ -11,15 +11,15 @@ redirect_from:
   /* 앵커 링크 이동 시 상단 여백 확보 */
   section[id] {
     scroll-margin-top: 80px;
-    padding-top: 2rem;
-    margin-bottom: 6rem; /* 섹션 간 간격을 대폭 확대 */
+    padding-top: 1rem;
+    margin-bottom: 3rem; 
   }
   
   /* 첫 번째 섹션(HeeSik 소개)은 예외 처리 */
   #intro {
     padding-top: 0;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 
   /* Tech Stack 스타일 */
