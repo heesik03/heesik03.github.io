@@ -81,7 +81,7 @@ redirect_from:
   </section>
 
   <section id="education">
-    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🎓 Education</h3>
+    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🎓 학력</h3>
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">동양미래대학교 컴퓨터소프트웨어공학과</h4>
       <span style="font-size: 0.9rem; color: #6b7280;">2023.03 ~ 현재</span>
@@ -89,7 +89,7 @@ redirect_from:
   </section>
 
   <section id="tech-stack">
-    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">🛠️ Tech Stack</h3>
+    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">🛠️ 기술 스택</h3>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
       
@@ -131,8 +131,30 @@ redirect_from:
     </div>
   </section>
 
+  <section id="projects">
+    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">💻 프로젝트</h3>
+    <div style="margin-bottom: 1.5rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">프로젝트 제목</h4>
+      <a href="#" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none;">GitHub Link</a>
+    </div>
+  </section>
+
+  <section id="activities">
+    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🏃 활동</h3>
+    
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">전공동아리 DASOM 활동</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2025.09 ~ 현재</span>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">연합동아리 University Makeus Challenge (UMC) 10th Spring Boot 챌린저 활동</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2026.03 ~</span>
+    </div>
+  </section>
+
   <section id="certifications">
-    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">📜 Certifications</h3>
+    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">📜 자격증</h3>
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
       <span style="font-size: 0.9rem; color: #6b7280;">2025.06</span>

@@ -8,11 +8,20 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Education"
+  - title: "About HeeSik"
+    url: "/#intro"
+
+  - title: "학력"
     url: "/#education"
 
-  - title: "Tech Stack"
+  - title: "기술 스택"
     url: "/#tech-stack"
 
-  - title: "Certifications"
+  - title: "프로젝트"
+    url: "/#projects"
+
+  - title: "활동"
+    url: "/#activities"
+
+  - title: "자격증"
     url: "/#certifications"
