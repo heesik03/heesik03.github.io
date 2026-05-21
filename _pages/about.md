@@ -134,21 +134,21 @@ redirect_from:
   <section id="projects">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">💻 프로젝트</h3>
     
-    <div style="margin-bottom: 1.5rem;">
+    <div style="margin-bottom: 2.5rem;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">Learn-Time</h4>
       <a href="https://github.com/Dongyang-LearnTime" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/Dongyang-LearnTime</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">AI 기반 공부 및 루틴 관리 웹사이트입니다. AI 기반 공부 진도 생성과 운동 관리 기능을 게이미피케이션과 결합하여 사용자의 지속적인 학습 습관 형성을 지원합니다.</p>
       <span style="font-size: 0.85rem; color: #6b7280;">2026.03 ~ 현재 | Spring Boot, React TypeScript, MySQL</span>
     </div>
 
-    <div style="margin-bottom: 1.5rem;">
+    <div style="margin-bottom: 2.5rem;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">슬기틔움</h4>
       <a href="https://github.com/heesik03/Seulgi-Tuium" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/heesik03/Seulgi-Tuium</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">어려운 표현을 AI가 쉽게 설명해 주는 문해력 향상 웹사이트입니다. Gemini API를 활용하여 어려운 단어와 문장을 쉬운 표현으로 변환하고, 어휘 학습 콘텐츠를 제공하여 문해력 저하 문제 해결에 이바지합니다.</p>
       <span style="font-size: 0.85rem; color: #6b7280;">2026.05 ~ 현재 | Spring Boot, React TypeScript, MySQL, Redis</span>
     </div>
 
-    <div style="margin-bottom: 1.5rem;">
+    <div style="margin-bottom: 2.5rem;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">team2-BackendProject</h4>
       <a href="https://github.com/heesik03/team2-BackendProject" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/heesik03/team2-BackendProject</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">일본 여행 정보 제공 및 일정 관리 웹사이트입니다. Jsoup 기반 크롤링으로 여행 정보를 수집하고, Google Maps를 활용해 주요 관광지 경로를 시각화하며, 사용자 맞춤형 여행 일정 관리 기능을 제공합니다.</p>
