@@ -76,7 +76,7 @@ redirect_from:
   <section id="intro">
     <h2 style="font-size: 1.25rem; font-weight: 400; margin-top: 0; color: #6b7280;" class="intro-subtitle">Full Stack Web Developer</h2>
     <p style="margin-top: 1rem; line-height: 1.6; font-size: 1.05rem; color: #374151;" class="intro-text">
-      항상 성장하고 싶은 개발자, HeeSik입니다! 풀스택 웹 개발을 지향하며, 백엔드와 프론트엔드의 연결 구조를 이해하고 사용자 경험까지 고려한 서비스를 만드는 것을 좋아합니다. 새로운 기술을 빠르게 학습하고 실제 프로젝트에 적용하며 꾸준히 성장하고 있습니다.
+      항상 성장하고 싶은 개발자, HeeSik입니다! 풀스택 웹 개발을 지향하며, 백엔드와 프론트엔드의 연결 구조를 이해하고 사용자 경험까지 고려한 서비스를 만드는 것을 좋아합니다. 새로운 기술을 빠르게 학습하고 실제 프로젝트에 적용하고 있습니다.
     </p>
   </section>
 
@@ -166,7 +166,7 @@ redirect_from:
 
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">연합동아리 UMC 10th Spring Boot 챌린저 활동</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2026.03 ~</span>
+      <span style="font-size: 0.9rem; color: #6b7280;">2026.03 ~ 현재</span>
     </div>
   </section>
 
