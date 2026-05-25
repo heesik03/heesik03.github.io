@@ -81,20 +81,24 @@ redirect_from:
   </section>
 
   <section id="education">
-    <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">🎓 학력</h3>
-      <div style="display: flex; justify-content: space-between; align-items: baseline;">
-        <h4 style="margin: 0; font-size: 1rem; font-weight: 600;">
-          광운전자공업고등학교 모바일소프트웨어과 (현 광운인공지능고등학교 인공지능소프트웨어과)
-        </h4>
-        <span style="font-size: 0.8rem; color: #6b7280;">2019.03 ~ 2022.02</span>
-      </div>
+    <h3 style="font-size:1.5rem;font-weight:700;border-bottom:2px solid #f3f4f6;padding-bottom:0.5rem;margin-bottom:1.5rem;">
+      🎓 학력
+    </h3>
 
-      <div style="display: flex; justify-content: space-between; align-items: baseline;">
-        <h4 style="margin: 0; font-size: 1rem; font-weight: 600;">
-          동양미래대학교 컴퓨터소프트웨어공학과
-        </h4>
-        <span style="font-size: 0.8rem; color: #6b7280;">2022.03 ~ 현재</span>
-      </div>
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem;">
+      <h4 style="margin:0;font-size:1rem;font-weight:600;line-height:1.5;flex:1;min-width:220px;">
+        광운전자공업고등학교 모바일소프트웨어과
+        <span style="font-weight:400;color:#6b7280;">(현 광운인공지능고등학교 인공지능소프트웨어과)</span>
+      </h4>
+      <span style="font-size:0.85rem;color:#6b7280;white-space:nowrap;">2019.03 ~ 2022.02</span>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap;">
+      <h4 style="margin:0;font-size:1rem;font-weight:600;line-height:1.5;flex:1;min-width:220px;">
+        동양미래대학교 컴퓨터소프트웨어공학과
+      </h4>
+      <span style="font-size:0.85rem;color:#6b7280;white-space:nowrap;">2022.03 ~ 현재</span>
+    </div>
   </section>
 
   <section id="tech-stack">
