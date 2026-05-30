@@ -162,7 +162,7 @@ redirect_from:
     </div>
 
     <div style="margin-bottom: 2.5rem;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">team2-BackendProject</h4>
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">Visit Japan</h4>
       <a href="https://github.com/heesik03/team2-BackendProject" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/heesik03/team2-BackendProject</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">일본 여행 정보 제공 및 일정 관리 웹사이트입니다. Jsoup 기반 크롤링으로 여행 정보를 수집하고, Google Maps를 활용해 주요 관광지 경로를 시각화하며, 사용자 맞춤형 여행 일정 관리 기능을 제공합니다.</p>
       <span style="font-size: 0.85rem; color: #6b7280;">2025.10 ~ 2025.12 | Java Servlet, JSP, MongoDB</span>
