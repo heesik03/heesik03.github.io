@@ -17,6 +17,20 @@ function updateNav() {
   if ($nav.width() === 0) {
     return;
   }
+  if ($(window).width() >= 925) {
+    while ($hlinks.children().length > 0) {
+      if ($vlinks_persist_tail.children().length > 0) {
+        $hlinks.children().first().insertBefore($vlinks_persist_tail);
+      } else {
+        $hlinks.children().first().appendTo($vlinks);
+      }
+    }
+    breaks = [];
+    $btn.addClass('hidden');
+    $btn.removeClass('close');
+    $hlinks.addClass('hidden');
+    return;
+  }
   var vlinksWidth = 0;
   $vlinks.children().each(function() {
     vlinksWidth += $(this).outerWidth(true);

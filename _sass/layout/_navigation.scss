@@ -214,7 +214,7 @@
     li {
       display: block;
 
-      &:first-child {
+      &.masthead__menu-item--lg {
         margin-right: auto;
         text-wrap: wrap;
 
@@ -326,6 +326,15 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+
+  @include breakpoint($large) {
+    button {
+      display: none !important;
+    }
+    .hidden-links {
+      display: none !important;
     }
   }
 }
