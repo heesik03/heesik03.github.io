@@ -23,6 +23,19 @@ redirect_from:
   }
 
   /* Tech Stack 스타일 */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  @media (max-width: 480px) {
+    .tech-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
   .tech-tag {
     background: #ffffff;
     border: 1px solid #e5e7eb;
@@ -104,7 +117,7 @@ redirect_from:
   <section id="tech-stack">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">🛠️ 기술 스택</h3>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+    <div class="tech-grid">
       
       <div>
         <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
@@ -198,9 +211,14 @@ redirect_from:
   <section id="certifications">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">📜 자격증</h3>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">컴퓨터활용능력 2급</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2019.07.12</span>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">정보처리산업기사</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2026.06.12</span>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2025.06.27</span>
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
@@ -208,14 +226,9 @@ redirect_from:
       <span style="font-size: 0.9rem; color: #6b7280;">2021.07.16</span>
     </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2025.06.27</span>
-    </div>
-    
-    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">정보처리산업기사</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2026.06.12</span>
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">컴퓨터활용능력 2급</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2019.07.12</span>
     </div>
 
   </section>
