@@ -202,6 +202,10 @@
     z-index: 100;
   }
 
+  button:not(.hidden) ~ .visible-links {
+    padding-right: 3.5rem;
+  }
+
   .visible-links {
     display: flex;
     align-items: center;
@@ -229,6 +233,9 @@
     }
 
     #theme-toggle {
+      margin-left: auto !important;
+      margin-right: 0 !important;
+
       a {
         width: 25px;
         display: flex;

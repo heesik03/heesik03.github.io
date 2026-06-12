@@ -14,6 +14,9 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+  if ($nav.width() === 0) {
+    return;
+  }
   var vlinksWidth = 0;
   $vlinks.children().each(function() {
     vlinksWidth += $(this).outerWidth(true);
@@ -82,6 +85,9 @@ function updateNav() {
 // Window listeners
 
 $(window).on('resize', function () {
+  updateNav();
+});
+$(window).on('load', function () {
   updateNav();
 });
 screen.orientation.addEventListener("change", function () {
