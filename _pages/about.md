@@ -97,7 +97,7 @@ redirect_from:
       <h4 style="margin:0;font-size:1rem;font-weight:600;line-height:1.5;flex:1;min-width:220px;">
         동양미래대학교 컴퓨터소프트웨어공학과
       </h4>
-      <span style="font-size:0.85rem;color:#6b7280;white-space:nowrap;">2022.03 ~ 현재</span>
+      <span style="font-size:0.85rem;color:#6b7280;white-space:nowrap;">2022.03 ~ </span>
     </div>
   </section>
 
@@ -141,6 +141,18 @@ redirect_from:
         </div>
       </div>
 
+      <div>
+        <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 4px; height: 16px; background: #8b5cf6; border-radius: 2px;"></span>
+          DevOps & Cloud
+        </h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span class="tech-tag">AWS</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">GitHub Actions</span>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -151,14 +163,14 @@ redirect_from:
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">Learn-Time</h4>
       <a href="https://github.com/Dongyang-LearnTime" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/Dongyang-LearnTime</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">AI 기반 공부 및 루틴 관리 웹사이트입니다. AI 기반 공부 진도 생성과 운동 관리 기능을 게이미피케이션과 결합하여 사용자의 지속적인 학습 습관 형성을 지원합니다.</p>
-      <span style="font-size: 0.85rem; color: #6b7280;">2026.03 ~ 현재 | Spring Boot, React TypeScript, MySQL</span>
+      <span style="font-size: 0.85rem; color: #6b7280;">2026.03 ~ | Spring Boot, React TypeScript, MySQL, AWS, Docker, GitHub Actions</span>
     </div>
 
     <div style="margin-bottom: 2.5rem;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">슬기틔움</h4>
       <a href="https://github.com/heesik03/Seulgi-Tuium" target="_blank" style="font-size: 0.9rem; color: #3b82f6; text-decoration: none; display: inline-block; margin-bottom: 0.5rem;">https://github.com/heesik03/Seulgi-Tuium</a>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.95rem; line-height: 1.5;">어려운 표현을 AI가 쉽게 설명해 주는 문해력 향상 웹사이트입니다. Gemini API를 활용하여 어려운 단어와 문장을 쉬운 표현으로 변환하고, 어휘 학습 콘텐츠를 제공하여 문해력 저하 문제 해결에 이바지합니다.</p>
-      <span style="font-size: 0.85rem; color: #6b7280;">2026.05 ~ 현재 | Spring Boot, React TypeScript, MySQL, Redis</span>
+      <span style="font-size: 0.85rem; color: #6b7280;">2026.05 ~ 2026.06 | Spring Boot, React TypeScript, MySQL, Redis</span>
     </div>
 
     <div style="margin-bottom: 2.5rem;">
@@ -174,21 +186,38 @@ redirect_from:
     
     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">전공동아리 DASOM 활동</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2025.09 ~ 현재</span>
+      <span style="font-size: 0.9rem; color: #6b7280;">2025.09 ~ </span>
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">연합동아리 UMC 10th Spring Boot 챌린저 활동</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2026.03 ~ 현재</span>
+      <span style="font-size: 0.9rem; color: #6b7280;">2026.03 ~ </span>
     </div>
   </section>
 
   <section id="certifications">
     <h3 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid #f3f4f6; padding-bottom: 0.5rem; margin-bottom: 1rem;">📜 자격증</h3>
+
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
-      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
-      <span style="font-size: 0.9rem; color: #6b7280;">2025.06</span>
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">컴퓨터활용능력 2급</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2019.07.12</span>
     </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">프로그래밍기능사(구 정보처리기능사)</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2021.07.16</span>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">SQL 개발자 (SQLD)</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2025.06.27</span>
+    </div>
+    
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+      <h4 style="margin: 0; font-size: 1.1rem; font-weight: 600;">정보처리산업기사</h4>
+      <span style="font-size: 0.9rem; color: #6b7280;">2026.06.12</span>
+    </div>
+
   </section>
 
 </div>
