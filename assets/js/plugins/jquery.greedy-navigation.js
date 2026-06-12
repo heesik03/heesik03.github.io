@@ -14,20 +14,30 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+  var vlinksWidth = 0;
+  $vlinks.children().each(function() {
+    vlinksWidth += $(this).outerWidth(true);
+  });
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
-  if ($vlinks.width() > availableSpace) {
+  if (vlinksWidth > availableSpace) {
 
-    while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
+    while (vlinksWidth > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
       // Record the width of the list
-      breaks.push($vlinks.width());
+      breaks.push(vlinksWidth);
 
       // Move item to the hidden list
       $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
 
       availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
+
+      // Recalculate vlinksWidth
+      vlinksWidth = 0;
+      $vlinks.children().each(function() {
+        vlinksWidth += $(this).outerWidth(true);
+      });
 
       // Show the dropdown btn
       $btn.removeClass("hidden");

@@ -25,10 +25,16 @@ redirect_from:
   /* Tech Stack 스타일 */
   .tech-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
   
+  @media (max-width: 768px) {
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   @media (max-width: 480px) {
     .tech-grid {
       grid-template-columns: 1fr;
@@ -138,8 +144,20 @@ redirect_from:
         </h4>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">TypeScript</span>
           <span class="tech-tag">React</span>
+          <span class="tech-tag">Vite</span>
+        </div>
+      </div>
+
+      <div>
+        <h4 style="font-weight: 600; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
+          <span style="width: 4px; height: 16px; background: #ec4899; border-radius: 2px;"></span>
+          Styling
+        </h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <span class="tech-tag">Bootstrap</span>
+          <span class="tech-tag">Tailwind CSS</span>
         </div>
       </div>
 
