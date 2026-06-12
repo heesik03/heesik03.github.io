@@ -151,6 +151,7 @@ redirect_from:
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <span class="tech-tag">MySQL</span>
           <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Redis</span>
         </div>
       </div>
 
